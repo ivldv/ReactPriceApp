@@ -6,14 +6,57 @@
   <component name="ChangeListManager">
     <list default="true" id="132dbf1c-50c4-49f4-b305-05ca1ba19b5e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/MyButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/MyInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/MySelect.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/Myinput1.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/css/MyButton.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/css/MyInput.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/css/MyInput1.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Laiout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/errorBlock/ErrorBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/fileArchive/fileArchive.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priceTable/PriceTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priceTable/PriceTableBody.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priceTable/PriceTableHead.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priceTable/PriceTableLines.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/ParametrsConection/ConnectionParameters.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/ParametrsConection/ParametrsEmail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/ParametrsConection/ParametrsFTP.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/ParametrsConection/ParametrsUrl.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/PriceDescription.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/PriceSettings1.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/PriseSettingsHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/fileLoadStructure/FileLoadStructure.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/fileLoadStructure/FileLoadStructureTableBody.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/fileLoadStructure/FileLoadStructureTableHead.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/fileStructureCheck/FileStructureCheck.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/fileStructureCheck/FileStructureCheckInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/fileStructureCheck/FileStructureCheckLine.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/priseSettings/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Maincss.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFoundPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Settings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/description.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/error.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fileLoadStructure.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/jqueryStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pricesettings/fileStructureCheck.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pricesettings/fileStructureCheckLine.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pricesettings/pricesettingsHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pricetable/PriceTable.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pricetable/pricetable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/style_aop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +76,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Dmitriy/WebstormProjects/new.app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -44,9 +89,27 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.1.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +119,11 @@
       <option name="presentableId" value="Default" />
       <updated>1683982367970</updated>
       <workItem from="1683982368976" duration="1666000" />
+      <workItem from="1685523138051" duration="10481000" />
+      <workItem from="1686741302753" duration="17711000" />
+      <workItem from="1687280060878" duration="1840000" />
+      <workItem from="1687864496708" duration="17924000" />
+      <workItem from="1688889335338" duration="1333000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,296 @@
+body {
+    font-family:Comic Sans MS,Tahoma,Arial;
+    font-size:12px;
+    margin:0;
+    width:100%;
+    min-width:1110px;
+    width:expression(document.body.clientWidth < 1110? '1110px' : 'auto');
+}
+form {
+    margin:0;
+}
+.priceFormLay input[type=number]::-webkit-outer-spin-button,
+.priceFormLay input[type=number]::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.instruction {
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+.instruction a {
+    color:#FF0033;
+}
+/* СПИСКОК НАСТРОЕННЫХ ПОДКЛЮЧЕНИЙ */
+.priceOrganizationSettings {
+    border-style:dashed;
+    border-width:1px 0;
+    margin-bottom:15px;
+    padding:15px 0;
+    position:relative;
+}
+.priceOrganizationSetting {
+    margin-bottom:15px;
+    position:relative;
+}
+.priceOrganizationSettingCaption {
+    display:inline-block;
+    font-size:14px;
+    font-weight:bold;
+    width:400px;
+}
+.priceOrganizationSettingValue {
+    text-align:center;
+    width:20px;
+}
+.priceOrganizationSettingsControl {
+    position:relative;
+}
+.priceTable, .emailTable {
+    border:0 none;
+    border-collapse:collapse;
+    width:100%;
+}
+.priceTable tr.violetline {
+    background-color:#ee82ee;
+}
+.priceTable tr.brownline {
+    background-color:#fd9709;
+}
+.priceTable tr.noactive {
+    background-color:#FF0033;
+}
+.priceTable tr.greenline {
+    background-color:#99FF99;
+}
+.priceTable tr.yellowline {
+    background-color:#FFFF00;
+}
+.priceTable .tcell, .emailTable .tcell {
+    border:1px solid #444;
+    padding:5px;
+}
+.tcell__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.priceTable .tcell .errorpoint {
+    bottom:15px;
+    color:#333;
+    font-size:12px;
+    font-weight:bold;
+    position:absolute;
+    right:0;
+}
+.priceTable th.tcell, .emailTable th.tcell {
+    background-color:#444;
+    color:#FFF;
+}
+.priceTable .tcell.tright, .emailTable .tcell.tright {
+    text-align:right;
+}
+.priceTable .tcell.tcenter, .emailTable .tcell.tcenter {
+    text-align:center;
+}
+.priceTable .tcell.tleft, .emailTable .tcell.tleft {
+    text-align:left;
+}
+.priceTable .tcell a.checkUpload {
+    border-bottom:1px dashed #333;
+    cursor:pointer;
+}
+.priceTable .tcell.tsupplier {
+    font-size:14px;
+    font-weight:bold;
+}
+.priceTable .tcell.tempty, .emailTable .tcell.tempty {
+    color:red;
+}
+.priceControl, .emailControl {
+    border-top:1px solid #444;
+    margin-top:10px;
+    padding-top:10px;
+}
+/* ФОРМА ДОБАВЛЕНИЯ РЕДАКТИРОВАНИЯ НАСТРОЕК */
+.priceFormTable, .emailFormTable {
+    border:1px solid #444;
+    border-collapse:collapse;
+    font-size:14px;
+}
+.priceFormTable h2.tcell, .emailFormTable th.tcell {
+    background-color:#444;
+    color:#FFF;
+    padding:5px;
+}
+.priceFormTable td.tcell {
+    padding:0;
+    /*width:550px;*/
+}
+.emailFormTable td.tcell {
+    padding:10px;
+}
+.priceFormTable td.empty {
+    width:10px;
+}
+.priceFormTable td.tcenter, .emailFormTable td.tcenter {
+    text-align:center;
+}
+.priceFormTable td.vtop {
+    vertical-align:top;
+}
+.priceFormTable .priceFormLay {
+    padding:4px 5px;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+}
+.priceFormTable .tcell .errordate {
+    background-color:#FF0033;
+    border-color:#FFFF00;
+    border-style:solid;
+    border-width:2px 2px 0;
+    padding:5px;
+    text-decoration:underline;
+}
+.priceFormTable .tcell .errortext {
+    background-color:#FF0033;
+    border-color:#FFFF00;
+    border-style:solid;
+    border-width:0 2px 2px;
+    color:#FFFF00;
+    padding:5px;
+}
+.priceFormTable .priceFormTitle, .emailFormTable .emailFormTitle {
+    color:#FF0033;
+    display:inline-block;
+    margin-left: 15px;
+
+}
+.priceFormTable .priceFormTitle.hiddenTitle {
+    display:none;
+}
+.priceFormTable .priceFormTitle span, .emailFormTable .emailFormTitle span {
+    color:#333;
+}
+.emailFormTable input.emailFormValue {
+    width:300px;
+}
+.priceFormControl, .emailFormControl {
+    margin-top:10px;
+}
+/* ФИЛДСЕТЫ */
+.filtersContentCaption {
+    width:220px;
+}
+.verifyContent, .connectionContent {
+    border:3px double #999;
+    font-size:12px;
+    height:275px;
+    overflow-y:scroll;
+    position:relative;
+}
+.structureContent {
+    border:3px double #999;
+    font-size:12px;
+    height:100px;
+    position:relative;
+}
+.filtersContent {
+    border:3px double #999;
+    font-size:12px;
+    min-height:28px;
+    position:relative;
+}
+.verifyContent .addVerifyLine, .connectionContent .addTimeFtp, .connectionContent .addTimeMail, .connectionContent .addTimeUrl, .connectionContent .addConnectMail, .filtersContent .addFilterLine {
+    text-align: right;
+    padding-right: 15px;
+}
+.connectionContent .connectionContentFields {
+    margin-top:10px;
+}
+.verifyContent .addVerifyLine span, .connectionContent .addTimeFtp span, .connectionContent .addTimeMail span, .connectionContent .addTimeUrl span, .connectionContent .addConnectMail span, .filtersContent .addFilterLine span {
+    color:#003399;
+    cursor:pointer;
+    font-size:12px;
+}
+.connectionContent .removeMail {
+    cursor:pointer;
+    margin-left:10px;
+    position:absolute;
+    top:15px;
+}
+.connectionContent .removeTime {
+    cursor:pointer;
+    margin-left:10px;
+    position:absolute;
+    top:13px;
+}
+.filtersContentFilters {
+    margin-top:30px;
+    max-width:1240px;
+    position:relative;
+}
+.filtersContentFilter {
+    display:inline-block;
+    position:relative;
+    width:49.5%;
+}
+.filtersContentFilter .filtersContentFilterContent {
+    padding:0 10px 25px;
+    position:relative;
+}
+.filtersContentFilter .filterField {
+    float:left;
+    margin-right:5px;
+    position:relative;
+}
+.filtersContentFilters .removeFilterLine {
+    cursor:pointer;
+    display:inline-block;
+    margin-top:7px;
+}
+/* ТАБЛИЦА ПАРАМЕТРОВ ПРОВЕРКИ ФАЙЛА */
+.verifyTable {
+    border:0 none;
+    border-collapse:collapse;
+    margin:15px auto 0;
+    width:100%;
+}
+.verifyTable .tcell {
+    padding:5px 20px 5px 5px !important;
+}
+.verifyTable th.tcell {
+    font-weight:normal;
+    padding:5px;
+}
+.verifyTable th.tcell span {
+    color:#FF0033;
+}
+.verifyTable .tcell.tcenter {
+    text-align:center;
+}
+.verifyTable .removeVerifyLine {
+    cursor:pointer;
+}
+/* ТАБЛИЦА СТУКТУРЫ ФАЙЛА */
+.structureTable {
+    border:0 none;
+    border-collapse:collapse;
+    margin:20px auto 0;
+    width:1240px;
+}
+.structureTable .tcell {
+    padding:5px 0 !important;
+}
+.structureTable th.tcell {
+    font-weight:normal;
+    padding:5px;
+}
+.structureTable th.tcell span {
+    color:#FF0033;
+}
+.structureTable .tcell.tcenter {
+    text-align:center;
+}

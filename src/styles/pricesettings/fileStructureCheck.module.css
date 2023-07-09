@@ -1,0 +1,59 @@
+.TopBlock{
+    margin-top: 25px;
+    width: 50%;
+}
+.headTable {
+    display: flex;
+    flex-direction: row;
+    background-color: #444;
+    color: #FFF;
+    padding: 9px 9px;
+}
+.verifyContentCaption {
+    background-color:#444;
+    border:3px double #999;
+    color:#FFF;
+    font-size:11px;
+    margin:-10px 0 0 15px;
+    padding:0 10px;
+    position:absolute;
+    width:200px;
+    z-index:2;
+}
+.addVerifyLine {
+    margin-left: 75%;
+    padding-right: 15px;
+    color: #003399;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+    background-color: inherit;
+    font-family: Comic Sans MS,Tahoma,Arial;
+}
+.verifyContent, .connectionContent {
+    border: 3px double #999;
+    font-size: 12px;
+    height: 275px;
+    overflow-y: scroll;
+    position: relative;
+    margin: 0px 3px;
+}
+.cell1 {
+    width: 55%;
+}
+.cell2 {
+    width: 20%;
+}
+.cell4 {
+    width: 5%;
+}
+.emptyList {
+    padding: 9px 9px;
+    font-size: 14px;
+}
+.addTimeMail{
+    color: #003399;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: right;
+}

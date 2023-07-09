@@ -1,0 +1,12 @@
+.priceTable {
+    border: 0 none;
+    border-collapse: collapse;
+    width: 100%;
+}
+.button_insert {
+    width: 100%;
+    border-top: 1px solid #444;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}

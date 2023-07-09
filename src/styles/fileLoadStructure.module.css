@@ -1,0 +1,87 @@
+.TopBlockfull{
+    margin-top: 25px;
+    width: 100%;
+}
+.verifyContentCaption {
+    background-color:#444;
+    border:3px double #999;
+    color:#FFF;
+    font-size:11px;
+    margin:-10px 0 0 15px;
+    padding:0 10px;
+    position:absolute;
+    width:200px;
+    z-index:2;
+}
+.verifyContent {
+    border: 3px double #999;
+    font-size: 12px;
+    height: 90px;
+    overflow-y: scroll;
+    position: relative;
+    margin: 0px 3px;
+}
+.tcell{
+    font-weight: normal;
+    background-color: #444;
+    color: #FFF;
+    padding: 5px 0 !important;
+    width: 6%;
+    height: 25px;
+}
+.tcellrequare{
+    font-weight: normal;
+    background-color: #444;
+    color: #FFF;
+    padding: 5px 0 !important;
+    width: 6%;
+}
+.tcellrequare::after{
+    content:'*';
+    background-color: #444;
+    color:  #FFF;
+    position: absolute;
+    transform: translate(100%,-15%);
+}
+.tcellrequarelong{
+    font-weight: normal;
+    background-color: #444;
+    color: #FFF;
+    padding: 5px 0 !important;
+    width: 11%;
+}
+.tcellrequarelong::after{
+    content:'*';
+    background-color: #444;
+    color:  #FFF;
+    position: absolute;
+    transform: translate(100%,-15%);
+}
+.tcellCenter{
+    text-align: center;
+    padding: 5px 0 !important;
+    width: 6%;
+}
+.priceTable {
+    border: 0 none;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+}
+.priceFormValue{
+    text-align:center;
+    margin-left:3px;
+    width:90%;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+.priceFormSelect{
+    text-align:center;
+    margin-left:3px;
+    width:97%;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #999;
+}

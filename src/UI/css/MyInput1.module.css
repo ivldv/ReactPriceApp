@@ -1,0 +1,23 @@
+.priceFormLay{
+    padding: 4px 5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.priceFormTitle {
+    color: #FF0033;
+    display: inline-block;
+    margin-left: 15px;
+}
+.withdel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.removeTime{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-top: 3px;
+    height: 16px;
+}
